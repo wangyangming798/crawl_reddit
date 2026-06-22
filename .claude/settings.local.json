@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(where python3 *)",
+      "Bash(where python *)",
+      "Bash(ls /c/Python*/python.exe)",
+      "Read(//c/Users/**)",
+      "Bash(find /c -maxdepth 5 -name \"python.exe\" -type f)",
+      "Bash(pip --version)",
+      "Bash(python3 -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(conda env *)",
+      "Bash(conda search *)",
+      "Bash(python *)",
+      "Bash(unset DASHSCOPE_API_KEY)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git rm *)",
+      "Bash(conda activate *)",
+      "Bash(pip list *)",
+      "Skill(update-config)",
+      "Bash(conda run *)",
+      "Bash(pytest *)",
+      "Bash(cd E:/crawl_reddit)",
+      "Bash(git rev-parse *)",
+      "Bash(echo 'BASE=__TRACKED_VAR__ HEAD=__TRACKED_VAR__')"
+    ]
+  }
+}

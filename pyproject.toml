@@ -1,0 +1,25 @@
+[project]
+name = "crawl-reddit"
+version = "0.1.0"
+description = "Reddit crawler for user pain-point research"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.9",
+    "asyncpg>=0.29",
+    "sqlalchemy[asyncio]>=2.0",
+    "python-dotenv>=1.0",
+    "click>=8.1",
+    "apscheduler>=3.10",
+    "openai>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "pytest-mock>=3.12",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
