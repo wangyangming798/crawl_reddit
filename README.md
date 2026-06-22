@@ -1,6 +1,6 @@
 # Reddit Crawler — 用户吐槽点挖掘工具
 
-自动爬取 Reddit 用户吐槽内容，输出结构化原始数据到 PostgreSQL，供下游大模型进行痛点分析，为 TikTok 本地兴趣电商提供需求调研数据支撑。
+自动爬取 Reddit 用户吐槽内容，输出结构化原始数据到 PostgreSQL。
 
 ## 功能特性
 
